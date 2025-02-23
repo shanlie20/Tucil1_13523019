@@ -4,7 +4,7 @@
 | :---: | :---: |
 | 13523019 | Shannon Aurellius Anastasya Lie |
 
-### Tentang Projek
+### Penjelasan Singkat Program
 
 IQ Puzzler Pro adalah permainan papan yang diproduksi oleh perusahaan Smart Games. Tujuan dari permainan ini adalah pemain harus dapat mengisi seluruh papan dengan 
 piece (blok puzzle) yang telah tersedia.
@@ -14,9 +14,14 @@ telah disediakan.
 2. Blok/Piece – Blok adalah komponen yang digunakan pemain untuk mengisi papan kosong hingga terisi penuh. Setiap blok memiliki bentuk yang unik dan semua blok harus
 digunakan untuk menyelesaikan puzzle.
 
-Tugas program ini adalah menemukan cukup satu solusi dari permainan IQ Puzzler Pro dengan menggunakan algoritma Brute Force, atau menampilkan bahwa solusi tidak
-ditemukan jika
-tidak ada solusi yang mungkin dari puzzle.
+Program ini merupakan solver untuk permainan IQ Puzzler Pro menggunakan algoritma Brute Force. Program akan membaca papan permainan dari file input yang berisi ukuran papan dan daftar blok yang harus ditempatkan. Kemudian, program akan mencari cukup satu solusi dari permainan IQ Puzzler Pro dengan menggunakan algoritma Brute Force, atau menampilkan bahwa solusi tidak
+ditemukan jika tidak ada solusi yang mungkin dari puzzle.
+
+Fitur utama dari program ini:
+- Membaca input dari file teks.
+- Menampilkan solusi dalam format teks berwarna.
+- Menyimpan solusi dalam file teks.
+- Menyimpan solusi dalam bentuk gambar.
 
 ### Struktur Program
 
@@ -70,6 +75,12 @@ tidak ada solusi yang mungkin dari puzzle.
 │
 ├── README.md   # Dokumentasi proyek
 ```
+
+### Requirement dan Instalasi
+Program ini dibuat menggunakan Java. Untuk menjalankannya, pastikan sistem sudah terinstal:
+- Java Development Kit (JDK) 8 atau lebih baru
+- IDE atau Terminal untuk menjalankan kode Java
+- ImageIO library untuk menyimpan solusi dalam bentuk gambar (sudah termasuk dalam Java SE)
 
 ### Cara Menjalankan Program
 
