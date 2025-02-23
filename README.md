@@ -82,9 +82,14 @@ java -cp bin Main
 ### Penjelasan
 
 1. Cloning repositori dengan cara `git clone 'https://github.com/shanlie20/Tucil1_13523019'` di terminal
+> [!NOTE]
+> Pastikan `java` dan `javac` sudah terinstall yang dapat dicek dengan cara
+> ```shell
+> java -version
+> javac -version
+> ```
 
 2. Jalankan :
 `javac -d bin src/*.java`
-> [!NOTE]
-> Pastikan Java sudah terinstall
+
 3. Jalankan : `java -cp bin Main`
